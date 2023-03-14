@@ -6,6 +6,7 @@
 
 ----------- Environment set up ----------------->
 
+    - npx pod-install ios
     - Install node
     - generate a new React native project
     - npx react-native start -> TO start the server
@@ -49,6 +50,15 @@
 
 
 ----------- Layouts  --------------->
+
+    - console.log(Dimensions.get("screen")); Get the dimention of the device
+    - Use Dimensions hooks to control the rotation 
+      -> npm i @react-native-community/hooks
+      -> import {useDimensions} from "@react-native-community/hooks";
+       This dimensions hooks will always return the dimension of the screen during orientation
+      -> console.log(useDeviceOrientation()) -> always return the landscape and portrait mode
+   
+
 
 
 
